@@ -9,7 +9,8 @@ that receives a lot of information from different interfaces and extract entiti
 - Upon startup the service should load the priorities settings from a provided input file to the services cache.
 
 ## 3. Assumptions
-- The receives interfaces are identical.
+- The receives entities are identical.
+- The receives interfaces are different.
 - The interfaces need to adjust to certain format(see ./example/identicalEnities Example.json).
 - The priorities settings file is a ".json.txt"
 - The reading file is async due to remote data.
