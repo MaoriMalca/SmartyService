@@ -1,0 +1,30 @@
+{
+    "interfaceA": {
+        "tz": "Atz",
+        "name": "Aname",
+        "age": "Aage",
+        "address" : {
+            "city": "Acity",
+            "region": "Aregion" 
+        }    
+    },
+    "interfaceB": {
+        "tz" : "Btz",
+        "name": "Bname",
+        "age": "Bage",
+        "address" : {
+            "city": "Bcity",
+            "region": "Bregion" 
+        }    
+    },
+    "interfaceC": {
+        "tz" : "Ctz",
+        "name": "Cname",
+        "age": "Cage",
+        "address" : {
+            "city": "Ccity",
+            "region": "Cregion" 
+        }        
+    }
+
+}

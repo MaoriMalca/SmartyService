@@ -1,0 +1,12 @@
+{
+  "entityType" : "person",
+  "priorities" : {
+    "tz": ["interfaceA", "interfaceB", "interfaceC"],
+    "name" : ["interfaceA", "interfaceC", "interfaceB"],
+    "age": ["interfaceC", "interfaceB", "interfaceA"],
+    "address": {
+        "city": ["interfaceC", "interfaceB", "interfaceA"],
+        "region": ["interfaceA", "interfaceC", "interfaceB"]
+      }
+  }
+}
