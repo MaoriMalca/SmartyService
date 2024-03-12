@@ -2,6 +2,7 @@ const getSubEntities = require('./getSubEntities');
 
 function mergeEntities(entities, priorities) {
     let mergeEntity = {};
+    // priorities[property] --> choosen interface
     for (let property in priorities) {
         if (typeof priorities[property] === 'object') {
             let subEntities = getSubEntities(entities, property);

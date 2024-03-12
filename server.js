@@ -1,8 +1,8 @@
 const express = require('express');
 const router = require('./routes');
-require('dotenv').config();
-const { parseJsonText, extractInterfaces } = require('./configPriorities');
+const { parseJsonText, extractInterfaces } = require('./config/configPriorities');
 
+require('dotenv').config();
 const prioritiesPath = process.env.PRIORITIES_FILE_PATH;
 
 const serviceApp = express();

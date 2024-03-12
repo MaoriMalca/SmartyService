@@ -2,7 +2,7 @@ const getSubEntities = require('./getSubEntities');
 
 function filterEntities(entities, priorities) {
     for (let property in priorities) {
-        if (typeof priorities[property] === 'object') {
+        if (typeof priorities[property] === 'object') { // priorities[property] --> the interface or object
             let subEntities = getSubEntities(entities, property);
             if (Object.keys(subEntities).length === 0) {
                 delete priorities[property];

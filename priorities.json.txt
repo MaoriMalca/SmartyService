@@ -3,10 +3,10 @@
   "priorities" : {
     "tz": ["interfaceA", "interfaceB", "interfaceC"],
     "name" : ["interfaceA", "interfaceC", "interfaceB"],
-    "age": ["interfaceC", "interfaceB", "interfaceA"],
+    "age": ["interfaceB", "interfaceB", "interfaceA"],
     "address": {
         "city": ["interfaceC", "interfaceB", "interfaceA"],
-        "region": ["interfaceA", "interfaceC", "interfaceB"]
+        "region": ["interfaceB", "interfaceC", "interfaceB"]
       }
   }
 }
